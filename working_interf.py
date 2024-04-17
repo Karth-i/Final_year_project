@@ -7,6 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/187v9ms9vIa47yZEhZDcUTC8Jz8C-xaxE
 """
 sentiment = 0
+
+
+
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -48,7 +51,7 @@ def process_whatsapp_file(file_path):
                 english_words = extract_english_words(message)
                 user_messages[current_user].extend(english_words)
 
-    return user_messages
+    return user_messages,sentiment
 
 # Function to predict the sentiment of the chat history
 def predict_sentiment(chat_history):
