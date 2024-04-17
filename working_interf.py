@@ -15,7 +15,7 @@ loaded_model = keras.models.load_model(model_path)
 
 loaded_model
 
-path=  r"https://colab.research.google.com/drive/1LKT64aVQ2fNVJZ1OJz4e4loF3vJE2e7W?usp=drive_link"
+#path=  r"https://colab.research.google.com/drive/1LKT64aVQ2fNVJZ1OJz4e4loF3vJE2e7W?usp=drive_link"
 
 # Function to extract English words from the chat history
 def extract_english_words(text):
