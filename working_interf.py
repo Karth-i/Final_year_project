@@ -83,7 +83,7 @@ if uploaded_file is not None:
     else:
         st.write("The predicted sentiment is negative.")
 
-!streamlit run /usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py
+#!streamlit run /usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py
 
 
 
